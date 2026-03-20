@@ -20,6 +20,9 @@ print("All devices:", ', '.join(my_computer.list_items()))
 
 # List devices by category
 print("Input devices:", ', '.join(my_computer.list_by_category("Input")))
+print("Output devices", ','.join(my_computer.list_by_category("Output")))
+print("Storage devices:", ', '.join(my_computer.list_by_category("Storage")))
+print("Network devices", ','.join(my_computer.list_by_category("Network")))
 
 # Search for a device
 device = "Router"
